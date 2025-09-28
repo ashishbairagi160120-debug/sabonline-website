@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>सब Online Cyber Cafe - Insurance, Printing & Hampers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+  <style>
+    body{margin:0;padding:0;font-family:'Poppins',sans-serif;line-height:1.6;color:#333;}
+    *{box-sizing:border-box;}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px;}
+
+    /* Header */
+    .header{background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);color:white;padding:15px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+    .header-content{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;}
+    .logo-section h1{font-size:24px;font-weight:800;margin:0;color:#fbbf24;}
+    .tagline{font-size:14px;opacity:0.9;}
+    .header-buttons{display:flex;gap:15px;flex-wrap:wrap;}
+    .btn{padding:12px 24px;border:none;border-radius:25px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:all .3s ease;cursor:pointer;}
+    .btn-call{background:#10b981;color:white;}
+    .btn-call:hover{background:#059669;transform:translateY(-2px) scale(1.05);}
+    .btn-whatsapp{background:#25d366;color:white;}
+    .btn-whatsapp:hover{background:#128c7e;transform:translateY(-2px) scale(1.05);}
+
+    /* Hero */
+    .hero{background:linear-gradient(135deg,#f97316 0%,#ea580c 100%);color:white;padding:80px 0;text-align:center;}
+    .hero h1{font-size:48px;font-weight:800;margin-bottom:20px;}
+    .hero p{font-size:24px;margin-bottom:40px;}
+    .btn-hero{background:#10b981;color:white;font-size:20px;padding:18px 36px;border-radius:50px;box-shadow:0 8px 25px rgba(16,185,129,0.4);}
+    .btn-hero:hover{background:#059669;transform:translateY(-3px) scale(1.05);}
+
+    /* Sections */
+    .services{padding:80px 0;background:#f8fafc;}
+    .section-title{text-align:center;font-size:36px;font-weight:700;color:#1e40af;margin-bottom:60px;}
+    .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;}
+    .service-card{background:white;padding:30px;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,0.1);transition:all .3s ease;border-left:5px solid #f97316;}
+    .service-card:hover{transform:translateY(-5px) scale(1.02);}
+    .service-icon{font-size:48px;margin-bottom:20px;}
+    .service-card h3{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:15px;}
+    .service-card p{color:#64748b;}
+
+    /* Offers */
+    .offers{background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);color:white;padding:60px 0;}
+    .offers-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;}
+    .offer-card{background:rgba(255,255,255,0.1);padding:25px;border-radius:15px;text-align:center;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.2);}
+    .offer-card h3{font-size:20px;font-weight:600;color:#fbbf24;}
+
+    /* Trust */
+    .trust{background:#fef3c7;padding:40px 0;text-align:center;border-left:5px solid #f59e0b;}
+    .trust p{font-size:18px;font-weight:600;color:#92400e;margin:0;}
+
+    /* Contact */
+    .contact{background:#10b981;color:white;padding:50px 0;text-align:center;}
+    .contact h2{font-size:28px;margin-bottom:30px;}
+    .contact-buttons{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;}
+    .btn-contact{background:white;color:#10b981;font-size:18px;font-weight:600;padding:15px 30px;}
+    .btn-contact:hover{background:#f0f9ff;transform:scale(1.05);}
+
+    /* Footer */
+    .footer{background:#1f2937;color:white;padding:40px 0;text-align:center;}
+    .footer h3{font-size:24px;font-weight:700;color:#fbbf24;margin-bottom:10px;}
+    .footer p{margin:5px 0;opacity:0.8;}
+
+    /* Responsive */
+    @media(max-width:768px){
+      .hero h1{font-size:32px;}
+      .hero p{font-size:18px;}
+      .services-grid{grid-template-columns:1fr;}
+      .header-content{flex-direction:column;text-align:center;}
+      .contact-buttons{flex-direction:column;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" data-aos="fade-down">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo-section">
+          <h1>💻 सब Online Cyber Cafe 🖨️</h1>
+          <p class="tagline">Insurance, Printing & Hampers – Kaam On The Spot</p>
+        </div>
+        <div class="header-buttons">
+          <a href="tel:9516077621" class="btn btn-call">📞 Call Now</a>
+          <a href="https://wa.me/919516077621?text=Hello%20Ashish%20Ji%2C%20Mujhe%20Service%20chahiye." target="_blank" class="btn btn-whatsapp">💬 WhatsApp Now</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container" data-aos="zoom-in">
+      <h1>All MP Hand to Hand Online Services</h1>
+      <p>घर बैठे सिर्फ 15–20 मिनट में काम पूरा</p>
+      <a href="https://wa.me/919516077621?text=Hello%20Ashish%20Ji%2C%20Mujhe%20Service%20Book%20karni%20hai." target="_blank" class="btn btn-hero">📲 WhatsApp पर Service Book करें</a>
+    </div>
+  </section>
+
+  <!-- Cyber Cafe Services -->
+  <section class="services">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">💼 Cyber Cafe & Online Services</h2>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100"><div class="service-icon">🆔</div><h3>ID & Family Update</h3><p>आधार – नया सदस्य जोड़ना, Address Update, KYC</p></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200"><div class="service-icon">📑</div><h3>PAN Card</h3><p>नया PAN, सुधार, फोटो-साइन अपडेट</p></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300"><div class="service-icon">🛵</div><h3>Vehicle Services</h3><p>RC कार्ड, PUC, वाहन बीमा</p></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400"><div class="service-icon">📋</div><h3>Licenses</h3><p>Learning & Driving License</p></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500"><div class="service-icon">🏬</div><h3>Business Services</h3><p>Udyam Registration, FSSAI License</p></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="600"><div class="service-icon">📜</div><h3>Lost Document Print</h3><p>आधार, पैन, RC, DL</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customized Printing -->
+  <section class="services" style="background:#fff7ed;">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">🎨 Customized Printing & Gifts</h2>
+      <div class="services-grid">
+        <div class="service-card" data-aos="flip-left" data-aos-delay="100"><div class="service-icon">👕</div><h3>T-Shirt Printing</h3><p>फोटो/नाम के साथ Custom T-Shirts</p></div>
+        <div class="service-card" data-aos="flip-left" data-aos-delay="200"><div class="service-icon">☕</div><h3>Mug Printing</h3><p>Personalized Coffee Mugs – Perfect Gift</p></div>
+        <div class="service-card" data-aos="flip-left" data-aos-delay="300"><div class="service-icon">🎁</div><h3>Customized Gifts</h3><p>Frames, Keychains, Mobile Covers</p></div>
+        <div class="service-card" data-aos="flip-left" data-aos-delay="400"><div class="service-icon">🖨️</div><h3>Sublimation Printing</h3><p>Pillows, Bottles, Plates & More</p></div>
+        <div class="service-card" data-aos="flip-left" data-aos-delay="500"><div class="service-icon">🏢</div><h3>Corporate Orders</h3><p>Bulk Branding & Office Printing</p></div>
+      </div>
+      <div style="text-align:center;margin-top:40px;" data-aos="zoom-in">
+        <a href="https://wa.me/919516077621?text=Hello%20Ashish%20Ji%2C%20Mujhe%20Printing%20Order%20karna%20hai." target="_blank" class="btn btn-hero">💬 WhatsApp पर Printing Order करें</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resin Art & Hampers -->
+  <section class="services" style="background:#f0f9ff;">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">✨ Resin Art & Hampers</h2>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-right" data-aos-delay="100"><div class="service-icon">🎨</div><h3>Resin Art Gifts</h3><p>Customized Resin Art – Coasters, Frames, Showpieces</p></div>
+        <div class="service-card" data-aos="fade-right" data-aos-delay="200"><div class="service-icon">🖼️</div><h3>Photo Resin Frames</h3><p>अपनी फोटो/design के साथ Resin Frames</p></div>
+        <div class="service-card" data-aos="fade-right" data-aos-delay="300"><div class="service-icon">🎁</div><h3>Luxury Hampers</h3><p>Premium Hampers for Birthday, Anniversary, Festivals</p></div>
+        <div class="service-card" data-aos="fade-right" data-aos-delay="400"><div class="service-icon">💝</div><h3>Customized Hampers</h3><p>Budget & Choice के हिसाब से Gift Hampers</p></div>
+        <div class="service-card" data-aos="fade-right" data-aos-delay="500"><div class="service-icon">🌟</div><h3>Corporate Hampers</h3><p>Events, Companies & Parties के लिए Special Hampers</p></div>
+      </div>
+      <div style="text-align:center;margin-top:40px;" data-aos="zoom-in">
+        <a href="https://wa.me/919516077621?text=Hello%20Ashish%20Ji%2C%20Mujhe%20Resin%20Art%20ya%20Hamper%20Order%20karna%20hai." target="_blank" class="btn btn-hero">💬 WhatsApp पर Resin Art/Hamper Order करें</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offers -->
+  <section class="offers">
+    <div class="container">
+      <h2 class="section-title" style="color:white;" data-aos="fade-up">विशेष ऑफर</h2>
+      <div class="offers-grid">
+        <div class="offer-card" data-aos="zoom-in" data-aos-delay="100"><h3>🎁 बीमा के साथ 1 साल का PUC Free</h3><p>वाहन बीमा कराएं और Free PUC पाएं</p></div>
+        <div class="offer-card" data-aos="zoom-in" data-aos-delay="200"><h3>⚡ सिर्फ 2 मिनट में RC कार्ड</h3><p>गाड़ी का नंबर दें और RC कार्ड पाएं</p></div>
+        <div class="offer-card" data-aos="zoom-in" data-aos-delay="300"><h3>💼 मात्र ₹599 में Distributor ID</h3><p>कम निवेश में बिजनेस शुरू करें</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust -->
+  <section class="trust" data-aos="fade-up">
+    <div class="container">
+      <p>⚠️ रेट के चक्कर में फर्जी लोगों का शिकार न बने – हम भरोसा कमाते हैं, पैसा नहीं।</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact">
+    <div class="container" data-aos="zoom-in">
+      <h2>किसी भी Service, Printing या Hamper Order के लिए संपर्क करें</h2>
+      <div class="contact-buttons">
+        <a href="https://wa.me/919516077621?text=Hello%20Ashish%20Ji%2C%20Mujhe%20Service%20chahiye." target="_blank" class="btn btn-contact">💬 WhatsApp Chat</a>
+        <a href="tel:9516077621" class="btn btn-contact">📞 Call: 9516077621</a>
+        <a href="tel:6261077621" class="btn btn-contact">📞 Call: 6261077621</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container" data-aos="fade-up">
+      <h3>सब Online Cyber Cafe</h3>
+      <p><strong>Owner:</strong> Ashish Bairagi</p>
+      <p><strong>Tagline:</strong> Kaam On The Spot</p>
+      <p style="margin-top:20px;opacity:0.6;">© 2024 सब Online Cyber Cafe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({duration:1000,once:true});</script>
+</body>
+</html>
